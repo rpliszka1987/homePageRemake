@@ -1,0 +1,68 @@
+/* Home Page Styles */
+.nav-wrapper {
+    height: 190px;
+    background-color: rgba(88, 93, 96, .8);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px;
+    color: #fff;
+    font-size: 1.3em;
+}
+
+/* Left Navigation Column  */
+
+.nav-wrapper>.left-nav-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-wrapper>.left-nav-column>.phone-icon {
+    margin-right: 25px;
+    font-size: 2em;
+}
+
+.nav-wrapper>.left-nav-column>.phone-icon a {
+    color: #fff;
+    transform: 0.5s;
+}
+
+.nav-wrapper>.left-nav-column>.phone-icon a:hover {
+    color: #cbcbcb;
+}
+
+/* Center Navigation Column */
+.nav-wrapper>.center-nav-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 35px;
+}
+
+.nav-wrapper>.center-nav-column>.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-wrapper>.center-nav-column>.logo img {
+    height: 200px;
+    width: auto;
+}
+
+/* Right Navigation Column */
+.nav-wrapper>.right-nav-column {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.nav-wrapper>.right-nav-column>.beach-icon {
+    margin-left: 25px;
+    font-size: 2em;
+}
+
+.nav-wrapper>.right-nav-column>.address {
+    text-align: right;
+}

@@ -1,0 +1,30 @@
+/* Navigation styles */
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+}
+
+.nav-links>.link {
+    width: 100px;
+    text-align: center;
+    height: 35px;
+    border-bottom: 3px solid transparent;
+    transition: 1s;
+}
+
+.nav-links>.link:hover {
+    border-bottom: 3px solid #cbcbcb;
+}
+
+.nav-links>.link a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.nav-links>.link a:hover {
+    color: #cbcbcb;
+    letter-spacing: 1px;
+}
