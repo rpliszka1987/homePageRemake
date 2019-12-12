@@ -1,7 +1,7 @@
 /* Home Page Styles */
 .nav-wrapper {
     height: 190px;
-    background-color: rgba(88, 93, 96, .8);
+    background-color: rgba(88, 93, 96, 0.8);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,6 +51,7 @@
     width: auto;
 }
 
+
 /* Right Navigation Column */
 .nav-wrapper>.right-nav-column {
     display: flex;
@@ -65,4 +66,34 @@
 
 .nav-wrapper>.right-nav-column>.address {
     text-align: right;
+}
+
+/* Hero setion homepage */
+.hero-wrapper {
+    height: 500px;
+    background-image: url(../images/backgrounds/photo-1495954484750-af469f2f9be5.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+}
+
+.hero-wrapper>.top-header {
+    background-color: rgba(88, 93, 96, 0.8);
+    width: 200px;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.hero-wrapper>.bottom-header {
+    width: 90px;
+    background-color: rgba(255, 199, 32, 0.8);
+    padding: 2px;
+    color: #7a613d;
+    text-align: center;
+    margin-top: 25px;
+    border-radius: 5px;
 }
